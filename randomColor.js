@@ -8,5 +8,6 @@ function GetrandomColorList(numberOfColors=7) {
              ColorArray.push(colorHextString) // produced color added to list
             }
         console.log(ColorArray);
+        return ColorArray;
     }
 GetrandomColorList();

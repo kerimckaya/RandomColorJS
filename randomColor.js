@@ -1,4 +1,4 @@
-function GetrandomColorList(numberOfColors=7) {
+function GetrandomColorList(numberOfColors=7) { //If no value is entered, it is provided to create at least 7 colors.
     var ColorArray = new Array(); // create new string array 
         for (var i = 0 ; i < numberOfColors ; i++) { // A repeating loop was created as many as the desired number of colors
             let colorHextString = "#";
